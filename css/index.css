@@ -1,4 +1,16 @@
-.navbar {
-  margin-bottom: 100;
-  border-radius: 100;
+body {
+  color: #28AAE2;
+  font-family: 'Oswald';
+  margin: 0px;
+}
+
+ul {
+  margin-bottom: 100px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
 }

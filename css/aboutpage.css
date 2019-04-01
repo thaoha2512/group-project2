@@ -9,17 +9,17 @@ body {
 
 <style>
 .fa {
-  padding: 100px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: 50px;
   width: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 50px 20px;
   border-radius: 50%;
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 10;
 }
 
 .fa-facebook {
@@ -36,14 +36,3 @@ body {
   background: #125688;
   color: white;
   </style>
-
-.footer-main-div{
-  width:100%;
-  height:auto;
-  margin:autoo;
-    background: #272727;
-    padding: 20px 0px
-}
-
-
-  }

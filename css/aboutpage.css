@@ -10,14 +10,11 @@ body {
   font-family: 'Oswald', serif;
 }
 
-.logo{
-    color:#000A0;
-    float:left;
-    padding-left: 25px;
-
+footer {
+  background-color: #28AAE2;
+  padding: 20px;
+  color: #ffffff
 }
-
-<style>
 .fa {
   padding: 10px;
   font-size: 50px;
@@ -46,3 +43,80 @@ body {
   background: #125688;
   color: white;
   </style>
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar-brand {
+    background-color: #28AAE2;
+    color: #ffffff;
+}
+.navbar {
+  /* Add a black background color to the top navigation */
+    overflow: hidden;
+    border-radius: 0px;
+  }
+
+.navbar-brand :hover{
+  color: #ffffff
+  background-color: #ffffff
+}
+
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    color: ffffff;
+  }
+
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    color: black;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Navbar search button */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+
+  form.example button:hover {
+    background: #0b7dda;
+  }
+
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

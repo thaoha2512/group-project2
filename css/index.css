@@ -111,3 +111,31 @@ footer {
   padding: 20px;
   color: #ffffff
 }
+
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  style= width: 100%;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 20px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 10;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;

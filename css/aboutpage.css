@@ -37,10 +37,13 @@ body {
   color: white;
   </style>
 
-  .wraper{
-    width:100%;
-  }
+.footer-main-div{
+  width:100%;
+  height:auto;
+  margin:autoo;
+    background: #272727;
+    padding: 20px 0px
+}
 
-  .img-banner{
-    display: none;
+
   }

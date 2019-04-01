@@ -3,3 +3,45 @@
   height:100%;
   border-radius: 100%;
 }
+.body {
+  margin:0
+  padding:0
+  font-family: 'Oswald', serif;
+}
+
+.logo{
+    color:#000A0;
+    float:left;
+    padding-left: 25px;
+    
+}
+
+<style>
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  style= width: 100%;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 20px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 10;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  </style>

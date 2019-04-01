@@ -7,20 +7,23 @@ body {
 
 
   /* Navbar */
-.navbar-brand {
+.BE {
     background-color: #28AAE2;
-    color: #ffffff;
+    color: #28AAE2;
 }
+
+.BE :hover{
+  color: #28AAE2;
+  background-color: #ffffff;
+}
+
 .navbar {
   /* Add a black background color to the top navigation */
     overflow: hidden;
     border-radius: 0px;
   }
 
-.navbar-brand :hover{
-  color: #ffffff
-  background-color: #ffffff
-}
+
 
   /* Style the links inside the navigation bar */
   .navbar a {
@@ -103,15 +106,15 @@ body {
 
 
   /* OTHER */
-[id="3"]{
+[id="partners"]{
 }
 
 
   /* Footer */
 footer {
-  background-color: #28AAE2;
+  background-color: #ffffff;
   padding: 20px;
-  color: #ffffff
+  color: #28AAE2;
 }
 
 .fa {
@@ -129,14 +132,24 @@ footer {
 .fa-facebook {
   background: #3B5998;
   color: white;
+  padding: 15px;
 }
 
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  padding: 15px;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
+  padding: 15px;
+}
+
+
+
+[id="contact"]{
+  background: #28AAE2;
+  color: #ffffff;
 }

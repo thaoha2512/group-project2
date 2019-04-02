@@ -33,9 +33,13 @@ body {
   background-color: #28AAE2;
 }
 
-.logo {
-    background-color: #28AAE2;
-    color: #ffffff;
+.navbar-brand img {
+  position:absolute;
+  left:0;
+  top:6%;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Navbar search button */

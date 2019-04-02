@@ -4,18 +4,8 @@ body {
   font-family: 'Oswald', serif;
   margin: 0px;
 }
-
-
   /* Navbar */
-.BE {
-    background-color: #28AAE2;
-    color: #28AAE2;
-}
 
-.BE :hover{
-  color: #28AAE2;
-  background-color: #ffffff;
-}
 
 .navbar {
   /* Add a black background color to the top navigation */
@@ -23,10 +13,8 @@ body {
     border-radius: 0px;
   }
 
-
-
   /* Style the links inside the navigation bar */
-  .navbar a {
+  .nav a {
     float: center;
     color: #f2f2f2;
     text-align: center;
@@ -36,21 +24,27 @@ body {
   }
 
   /* Change the color of links on hover */
-  .navbar a:hover {
-    color: ffffff;
+  .nav a:hover {
+    color: #ffffff;
+    text-decoration: none;
   }
 
   /* Add a color to the active/current link */
-  .navbar a.active {
-    color: black;
+  .nav a.active {
+    color: #28AAE2;
+    background-color: #28AAE2;
   }
 
+.logo {
+      background-color: #28AAE2;
+      color: #ffffff;
+  }
 
+  /* Navbar search button */
   * {
     box-sizing: border-box;
   }
 
-  /* Navbar search button */
   form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
@@ -91,7 +85,7 @@ body {
 
 .text {
   color: #f2f2f2;
-  font-size: 30px;
+  font-size: 2.5em;
   position: absolute;
   width: 100%;
   text-align: center;

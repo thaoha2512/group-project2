@@ -4,9 +4,8 @@ body {
   font-family: 'Oswald', serif;
   margin: 0px;
 }
+
   /* Navbar */
-
-
 .navbar {
   /* Add a black background color to the top navigation */
     overflow: hidden;
@@ -35,7 +34,7 @@ body {
     background-color: #28AAE2;
   }
 
-.logo {
+  .logo {
       background-color: #28AAE2;
       color: #ffffff;
   }
@@ -78,7 +77,7 @@ body {
 
 
 
-  /* Carousel */
+/* Carousel */
 .carousel-inner {
   max-height: 500px;
 }
@@ -94,17 +93,15 @@ body {
   top: 50%;
   transform: translateY(-50%);
   bottom: initial;
-
 }
 
-
-
-  /* OTHER */
-[id="partners"]{
+/* Contact */
+[id="contact"]{
+  background: #28AAE2;
+  color: #ffffff;
 }
 
-
-  /* Footer */
+/* Footer */
 footer {
   background-color: #ffffff;
   padding: 20px;
@@ -139,11 +136,4 @@ footer {
   background: #125688;
   color: white;
   padding: 15px;
-}
-
-
-
-[id="contact"]{
-  background: #28AAE2;
-  color: #ffffff;
 }

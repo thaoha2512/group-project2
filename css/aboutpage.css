@@ -6,7 +6,7 @@ body {
 /* Navbar */
 
 .navbar {
-/* Add a black background color to the top navigation */
+  /* Add a black background color to the top navigation */
   overflow: hidden;
   border-radius: 0px;
 }
@@ -98,7 +98,7 @@ footer {
 }
 
 .fa:hover {
-    opacity: 10;
+  opacity: 10;
 }
 
 .fa-facebook {
@@ -121,7 +121,7 @@ footer {
 }
 
 .container {
-    width: 100%;
+  width: 100%;
 }
 
 

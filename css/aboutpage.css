@@ -142,8 +142,10 @@ footer {
 [id="abouttext"] {
   background-color: #ffffff;
   color: #28AAE2;
-  padding: 10px 300px 10px 300px;
+  padding: 10px 40% 10px 40%;
   font-size: 1em;
+  text-align: left|right|center|justify|inital|inherit;
+
 }
 
 [id="team"] {

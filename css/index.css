@@ -1,84 +1,85 @@
-  /* Body */
+/* Body */
 body {
   color: #28AAE2;
   font-family: 'Oswald', serif;
   margin: 0px;
 }
-  /* Navbar */
 
-
+/* Navbar */
 .navbar {
   /* Add a black background color to the top navigation */
-    overflow: hidden;
-    border-radius: 0px;
-  }
+  overflow: hidden;
+  border-radius: 0px;
+}
 
-  /* Style the links inside the navigation bar */
-  .nav a {
-    float: center;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+/* Style the links inside the navigation bar */
+.nav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-  /* Change the color of links on hover */
-  .nav a:hover {
-    color: #ffffff;
-    text-decoration: none;
-  }
+/* Change the color of links on hover */
+.nav a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
 
-  /* Add a color to the active/current link */
-  .nav a.active {
-    color: #28AAE2;
-    background-color: #28AAE2;
-  }
+/* Add a color to the active/current link */
+.nav a.active {
+  color: #28AAE2;
+  background-color: #28AAE2;
+}
 
-.logo {
-      background-color: #28AAE2;
-      color: #ffffff;
-  }
+.navbar-brand img {
+  position:absolute;
+  left:0;
+  top:6%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
-  /* Navbar search button */
-  * {
-    box-sizing: border-box;
-  }
+/* Navbar search button */
+* {
+  box-sizing: border-box;
+}
 
-  form.example input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-    background: #f1f1f1;
-  }
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
 
-  form.example button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
-  }
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
 
-  form.example button:hover {
-    background: #0b7dda;
-  }
+form.example button:hover {
+  background: #0b7dda;
+}
 
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-
-
-  /* Carousel */
+/* Carousel */
 .carousel-inner {
   max-height: 500px;
 }
@@ -94,17 +95,15 @@ body {
   top: 50%;
   transform: translateY(-50%);
   bottom: initial;
-
 }
 
-
-
-  /* OTHER */
-[id="partners"]{
+/* Contact */
+[id="contact"]{
+  background: #28AAE2;
+  color: #ffffff;
 }
 
-
-  /* Footer */
+/* Footer */
 footer {
   background-color: #ffffff;
   padding: 20px;
@@ -120,7 +119,7 @@ footer {
 }
 
 .fa:hover {
-    opacity: 10;
+  opacity: 10;
 }
 
 .fa-facebook {
@@ -139,11 +138,4 @@ footer {
   background: #125688;
   color: white;
   padding: 15px;
-}
-
-
-
-[id="contact"]{
-  background: #28AAE2;
-  color: #ffffff;
 }
